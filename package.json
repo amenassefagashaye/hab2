@@ -1,0 +1,23 @@
+{
+  "name": "assefa-digital-bingo",
+  "version": "1.0.0",
+  "description": "Assefa Gashaye Birhanie Digital Bingo Game",
+  "main": "index.html",
+  "scripts": {
+    "start": "deno run --allow-net --allow-read backend/server.ts",
+    "dev": "deno run --allow-net --allow-read --watch backend/server.ts",
+    "deploy": "deployctl deploy --project=assefa-bingo --prod backend/server.ts"
+  },
+  "keywords": [
+    "bingo",
+    "game",
+    "ethiopia",
+    "amharic",
+    "websocket"
+  ],
+  "author": "Assefa Gashaye Birhanie",
+  "license": "MIT",
+  "devDependencies": {
+    "@deno/deploy": "^0.8.0"
+  }
+}

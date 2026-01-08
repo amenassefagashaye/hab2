@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read backend/server.ts",
+    "dev": "deno run --allow-net --allow-read --watch backend/server.ts"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.177.0/"
+  },
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "deno.ns"]
+  }
+}
